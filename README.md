@@ -31,6 +31,7 @@ followed by a tab and the rest of the arguments for that item.  Has to be a
 tab, not spaces, because I was lazy when writing this.
 
 You can define a color like so:
+
     D	name	string
 
 Where "D" tells colordigm you are defining a color, "name" is what you want to
