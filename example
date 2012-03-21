@@ -10,6 +10,7 @@ D	XM3	#00aa88
 D	XM4	#88aa00
 
 F	/home/paradigm/.themes/current/gtk-2.0/gtkrc
+M	Setting up GTK
 C	XFG
 P	^\\([[:space:]]*fg\\[NORMAL\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
 P	^\\([[:space:]]*fg\\[ACTIVE\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
@@ -46,3 +47,5 @@ P	^\\([[:space:]]*base\\[INSENSITIVE\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\
 C	XHI
 P	^\\([[:space:]]*GtkWidget::cursor_color[[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
 P	^\\([[:space:]]*GtkWidget::secondary_cursor_color[[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+M	Printing present working directory to show example of R-line
+R	pwd

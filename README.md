@@ -67,5 +67,18 @@ using regular expressions.  The key line of code is this:
 
 Where \1 and \3 are the \\(stuff before the color\\) and \\(stuff after the color\\).
 
-See the example file if this isn't clear.
+M	message
 
+Lines like this will simple print a message to stdout.  This could be used, for
+example, to remind a user how to tell a program to re-parse the config to
+change its colors.
+
+R	command
+
+Lines like this are used to run system commands.  For example, if you can
+automate having a program re-parse its config via a system command, you can
+have colordigm do it with one of these lines.  It will prompt the user before
+running the command just in case.  This is probably a huge security
+vulnerability and a Bad Idea.
+
+See the example file if this isn't clear.
