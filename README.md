@@ -59,7 +59,7 @@ in the last C-line (as defined by the last D-line).
 
 The format of the pattern is like so:
 
-\\(stuff before the color)\\(the color\\)\\(stuff after the color\\)
+    \\(stuff before the color)\\(the color\\)\\(stuff after the color\\)
 
 using regular expressions.  The key line of code is this:
 
