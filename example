@@ -1,0 +1,48 @@
+# green:
+D	XBG	#000000
+D	XHI	#00ff00
+D	XFG	#00aa00
+D	XIN	#005500
+D	XER	#ff0000
+D	XM1	#00aa55
+D	XM2	#55aa00
+D	XM3	#00aa88
+D	XM4	#88aa00
+
+F	/home/paradigm/.themes/current/gtk-2.0/gtkrc
+C	XFG
+P	^\\([[:space:]]*fg\\[NORMAL\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+P	^\\([[:space:]]*fg\\[ACTIVE\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+C	XHI
+P	^\\([[:space:]]*fg\\[PRELIGHT\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+P	^\\([[:space:]]*fg\\[SELECTED\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+C	XIN
+P	^\\([[:space:]]*fg\\[INSENSITIVE\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+C	XBG
+P	^\\([[:space:]]*bg\\[NORMAL\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+P	^\\([[:space:]]*bg\\[ACTIVE\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+P	^\\([[:space:]]*bg\\[PRELIGHT\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+P	^\\([[:space:]]*bg\\[SELECTED\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+P	^\\([[:space:]]*bg\\[INSENSITIVE\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+C	XFG
+P	^\\([[:space:]]*text\\[NORMAL\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+C	XHI
+P	^\\([[:space:]]*text\\[ACTIVE\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+C	XIN
+P	^\\([[:space:]]*text\\[PRELIGHT\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+C	XHI
+P	^\\([[:space:]]*text\\[SELECTED\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+C	XIN
+P	^\\([[:space:]]*text\\[INSENSITIVE\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+C	XBG
+P	^\\([[:space:]]*base\\[NORMAL\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+P	^\\([[:space:]]*base\\[ACTIVE\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+C	XIN
+P	^\\([[:space:]]*base\\[PRELIGHT\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+C	XBG
+P	^\\([[:space:]]*base\\[SELECTED\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+C	XIN
+P	^\\([[:space:]]*base\\[INSENSITIVE\\][[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+C	XHI
+P	^\\([[:space:]]*GtkWidget::cursor_color[[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
+P	^\\([[:space:]]*GtkWidget::secondary_cursor_color[[:space:]]*=[[:space:]]*"\\)\\([^"]*\\)\\(".*\\)$
