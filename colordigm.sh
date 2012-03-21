@@ -1,9 +1,10 @@
 #!/bin/sh
-if [ -r $1 ]
+if ! [ -r "$@" ]
 then
 	echo "Cannot read $1, aborting"
+	return 0
 fi
-COLORFILE=$1
+COLORFILE="$@"
 COLORNAMES=""
 COLORVALUES=""
 COMMANDS=""
