@@ -63,7 +63,7 @@ The format of the pattern is like so:
 
 using regular expressions.  The key line of code is this:
 
-    sed -n "s/$PATTERN/\\1$COLOR\\3/gp" $FILE 1>/dev/null
+    sed -i "s/$PATTERN/\\1$COLOR\\3/g" $FILE
 
 Where \1 and \3 are the \\(stuff before the color\\) and \\(stuff after the color\\).
 
